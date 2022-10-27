@@ -30,11 +30,11 @@ export default function Welcome() {
       
     />
    </View>
-   <Animatable.View delay={400} animation="fadeInUp" style={styles.containerForm}>
+   <Animatable.View delay={600} animation="fadeInUp" style={styles.containerForm}>
       
-      <Text style={styles.title}>Monitore seu veiculo de qualquer lugar!</Text>
+      <Text style={styles.title}>Monitore seu veiculo em qualquer lugar!</Text>
       
-      <Text style={styles.text}>Para começar clique em ACESSAR.</Text>
+      <Text style={styles.text}>Faça o login para começar.</Text>
       
       <TouchableOpacity 
       style={styles.button}
@@ -69,22 +69,21 @@ const styles = StyleSheet.create({
     paddingEnd:'5%'
   },
   title:{
-    fontSize:19,
+    fontSize:28,
     fontWeight:'bold',
-    marginTop:40,
+    marginTop:30,
     marginBottom:12,
-    borderBottomWidth:7,
+    borderBottomWidth:4,
     borderBottomColor:'#2E2A2A',
-    borderRadius:10
+    borderRadius:2
   },
   text:{
     alignItems:'center',
     alignContent:'center',
-    fontSize:19,
-    marginTop: 10,
+    fontSize:14,
+    marginTop: 20,
+    color:'#4F4F4F',
     fontWeight:'bold',
-    borderBottomWidth:8,
-    borderBottomColor:'#2E2A2A',
     borderRadius:10,
   },
   button:{
